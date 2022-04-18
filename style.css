@@ -1,0 +1,508 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+}
+
+.header{
+    background-image: url('bg (1).png');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 500px;
+    padding-top: 20px;
+    margin-left: 30px;
+    min-width: 100px;
+}
+
+.nav>ul{
+    display: flex;
+    list-style: none;
+    height: max-content;
+}
+
+.nav>ul>li{
+    padding: 20px;
+    margin-right: 10px;
+    height: max-content;
+}
+
+.nav-button{
+    display: flex;
+    padding: 30px 10px 30px 10px;
+    height: max-content;
+    margin-right: 20px;
+}
+
+.nav-button>button{
+    margin-right: 10px;
+    color: white;
+    background-color: black;
+    height: 3vw;
+    width: 3vw;
+    border-radius: 100%;
+    outline-style: none;
+    padding: 0;
+    border: 0px;
+}
+
+.headercontent1{
+    left: 60%;
+    position: absolute;
+    top: 6.035156vw;
+    max-width: 25%;
+}
+
+.headercontent1>h2{
+    line-height: 95%;
+    font-size: 4.1666699219vw;
+    letter-spacing: -.02em;
+}
+
+.headercontent{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 4%;
+    align-items: center;
+}
+
+.headercontent-text{
+    margin-right: 25%;
+}
+
+.headercontent>div>span{
+    font-size: 2vw;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.headercontent-buttons{
+    display: flex;
+}
+
+.headercontent-button-1{
+    margin-right: 5px;
+}
+
+.headercontent-buttons>div>button{
+    border: 0;
+    color: white;
+    background-color: black;
+    padding: 10px 15px 10px 15px;
+    border-radius: 55.5555rem;
+    text-align: center;
+}
+
+.headercontent-button-2{
+    margin-left: 5px;
+}
+
+content{
+    background-image: url('background.jpg');
+    width: 100%;
+    height: 100vh;
+}
+
+.section2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.text-section2{
+    width: 500px;
+    min-width: 250px;
+    height: max-content;
+    margin-left: 20vw;
+}
+
+.text-section2>h2{
+    font-weight: bolder;
+    line-height: 100%;
+    /* letter-spacing: 0.2em; */
+    font-size: -webkit-xxx-large;
+    font-family: sans-serif;
+}
+
+.section3{
+    display: grid;
+    grid-template-columns: 20vw 20vw;
+    grid-column-gap: 4vw;
+    list-style: none;
+    margin: 0 0 0 40%;
+    padding: 0;
+}
+
+.section3>li{
+    border-top: 1px solid;
+}
+
+.section3>li>div{
+    padding-top: 1.5vw;
+    padding-bottom: 4.5vw;
+}
+
+.section3-heading{
+    margin-top: 0;
+    font-family: sans-serif;
+}
+
+.section3-p>p{
+    margin: 0;
+    font-family: sans-serif;
+    color: grey;
+}
+
+.section4-main{
+    margin-top: 5%;
+    display: flex;
+}
+
+.section4-main>div{
+    width: 33.3333vw;
+    height: 100vh;   
+}
+
+#section4-main-dv1{
+    background-color: #141623;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.dv1flex{
+    margin-left: 13%;
+    margin-right: 2%;
+}
+
+.dv1flex>h3{
+    font-weight: 700;
+    font-size: 3.6vw;
+    letter-spacing: -.01em;
+    line-height: 100%;
+    color: white;
+}
+
+.dv2sol{
+    margin-left: 13%;
+    margin-bottom: 10%;
+}
+
+.dv2sol>p{
+    font-size: 1.36vw;
+    font-weight: 700;
+    color: white;
+}
+
+.dv2sol>div{
+    border: 1px solid white;
+    width: max-content;
+    padding: 10px;
+    border-radius: 55.5555555rem;
+    cursor: pointer;
+    background: none;
+}
+
+.dv2sol>div>a{
+    text-decoration: none;
+    color: white
+}
+
+.section4-main-dv2{
+    background-image: url('background2.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+}
+
+.section4-main-dv2>div{
+    margin-left: 13%;
+    margin-bottom: 1%;
+}
+
+.section4-main-dv2>div>h3{
+    font-weight: 700;
+    line-height: 100%;
+    font-size: x-large;
+    color: white;
+}
+
+.section4-main-dv3{
+    display: flex;
+    justify-content: space-between;
+    background-color: #bc7155;
+    flex-direction: column;
+}
+
+.section4-main-dv3>div{
+    margin-left: 13%;
+    margin-bottom: 1%;
+}
+
+.section4-main-dv3>div>h3{
+    font-weight: 700;
+    line-height: 100%;
+    font-size: x-large;
+    color: white;
+}
+
+.section5{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.section5>div{
+    margin-left: 8.3333%;
+    padding-top: 4%
+}
+
+.section5>div>h3{
+    letter-spacing: -.01em;
+    font-weight: 700;
+    line-height: 100%;
+    font-size: 2.0em
+}
+
+.section6-main{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section6-main-dv1{
+    width: 50%;
+    height: 30vw;
+    background-image: url('paris.avif');
+    background-size: cover;
+    background-position: center;
+    margin-left: 8.333%;
+    border-radius: 0% 0% 10% 0%
+}
+
+.section6-main-dv2{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    height: 32.32vw;
+    margin-right: 8.3333%;
+    margin-left: 1%;
+}
+
+.section6-main-dv2>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-top: 1px solid;
+}
+
+.section6-main-dv2>div>h4{
+    margin-top: 0;
+    font-size: 1.1rem;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: -.01rem;
+}
+
+.section6-main-dv2>div>p{
+    font-size: 0.777778rem;
+    letter-spacing: .01em;
+    line-height: 120%;
+    padding-bottom: 10px;
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+    border-radius: 5px 0px 20px 0px;
+}
+
+.section7{
+    height: max-content;
+}
+
+.section7-main{
+    display: flex;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.section7-main>div{
+    height: 55vw;
+}
+
+.section7-main-dv1{
+    width: 50vw;
+    background-image: url('flight-manager.png');
+    background-color: #0f0f1b;
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.section7-main-dv2{
+    width: 50vw;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column;
+    background-color: #141623;
+}
+
+.section7-main-dv2>div{
+    margin-left: 10%;
+}
+
+.section7-main-dv2-child1>h2{
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: -.02em;
+    font-size: 4.39453125vw;
+    color: white;
+}
+
+.section7-main-dv2-child2{
+    margin-right: 5%;
+}
+
+.section7-main-dv2-child2>p{
+    color: white;
+    font-size: 1.36vw;
+    line-height: 100%;
+    padding-bottom: 5%;
+}
+
+.section8-main{
+    display: flex;
+    height: max-content;
+}
+
+.section8-main>div{
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.section8-main>div>h2{
+    font-size: 11.988281vw;
+    font-weight: 700;
+    line-height: 80%;
+    letter-spacing: -.02em;
+}
+
+.section9-main{
+    width: 100%;
+    height: max-content;
+    display: grid;
+    grid-template-columns: 9fr 10fr;
+    grid-column-gap: 4.1666666667%;
+    margin-bottom: 2%;
+}
+
+.section9-main>div{
+    height: 100%;
+}
+
+.section9-main-dv1>div{
+    margin-left: 5vw;
+    margin-right: 25%;
+}
+
+.section9-main-dv1>div>p{
+    font-size: 1.3671875vw;
+    line-height: 110%;
+}
+
+.section9-main-dv2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.section9-content{
+    width: 50%;
+}
+
+.section9-content-2{
+    line-height: 100%;
+    font-weight: 700;
+    font-size: 1.5625vw;
+    letter-spacing: -.01em;
+}
+
+.section9-content1{
+    border: 2px dashed gray;
+    display: flex;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    align-items: center;
+    border-radius: 0% 0% 25% 0%;
+}
+
+.section9-content-3{
+    line-height: 110%;
+    font-size: 1.3671875vw;
+}
+
+.section9-content>div{
+    width: 90%;
+}
+
+.section10-main{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 2%;
+}
+
+.section10-main>div{
+    margin-left: 5vw
+}
+
+.section10-main>div>button{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    padding: 1.02vw 1.5vw 1.12vw;
+    font-size: 1.171875vw;
+    border: 0px;
+    text-shadow: none;
+    border-radius: 55.5555555556rem;
+    font-weight: 700;
+    line-height: 100%;
+    display: inline-block;
+}
+
+.section11-main{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+
+.section11-main>div{
+    background-image: url('cabin.jpg');
+    width: 95vw;
+    height: 590px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.section12-main>div>h4{
+    display: flex;
+    justify-content: center;
+    color: gray;
+}
+.section12-main>div>h1{
+    display: flex;
+    justify-content: center;
+    color: black;
+}
